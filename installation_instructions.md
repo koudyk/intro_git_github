@@ -11,7 +11,7 @@ For this class, you'll need
 5. A modern browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above)
 
 ## Detailed instructions
-Here are the instructions for installing a Bash shell, Git, and a text editor on [Windows](#windows), [Mac OS X](#mac-os-x), or [Linux](#linux). 
+Here are the instructions for installing a Bash shell, Git, and a text editor on [Windows](#-----windows), [Mac OS X](#-----mac-os-x), or [Linux](#-----linux). 
 
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. 
 
