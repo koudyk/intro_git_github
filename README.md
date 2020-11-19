@@ -1,8 +1,6 @@
 # Introduction to git and GitHub
 
-Hello! 👋 
-
-This repository contains the materials for a short class on Git/GitHub. 
+Hello! 👋 This repository contains the materials for a 2-hour tutorial on Git/GitHub. 
 
 ## Before class
 For this class, you'll need
@@ -14,5 +12,5 @@ For this class, you'll need
 
 Before class, please follow the [installation instructions](https://github.com/koudyk/intro_git_github/blob/main/installation_instructions.md) to make sure you have all these requirements. 
 
-## Class outline
+## Tutorial outline
 
