@@ -2,7 +2,7 @@
 
 Hello! 👋 
 
-This is a repository for a class on git/GitHub in the Neuroimaging Data Science course. 
+This repository contains the materials for a short class on Git/GitHub. 
 
 ## Before class
 For this class, you'll need
