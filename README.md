@@ -12,7 +12,7 @@ For this class, you'll need
 4. A [GitHub](https://github.com/) account.
 5. A modern browser
 
-Before class, please see the [installation instructions](https://github.com/koudyk/intro_git_github/blob/main/installation_instructions.md) for more details and for instructions on how to get a Bash shell, install git, and find a text editor on your machine. 
+Before class, please follow the [installation instructions](https://github.com/koudyk/intro_git_github/blob/main/installation_instructions.md) to make sure you have all these requirements. 
 
 ## Class outline
 
