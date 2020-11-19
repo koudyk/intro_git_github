@@ -19,8 +19,7 @@ Bash is a commonly-used shell that gives you the power to do simple tasks more q
   width="60"
   height="60"
   style="float:left;">
-    ### Windows
-
+    Windows
 #### THE BASH SHELL and GIT
 
 Installing Git Bash will give you both Git and Bash.
@@ -51,7 +50,13 @@ Installing Git Bash will give you both Git and Bash.
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **Notepad** is a text editor that comes with Windows, and it will serve for the purpose of our workshop. 
 
-### Mac OS X
+
+<h1> <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/apple-logo.gif"
+  width="60"
+  height="60"
+  style="float:left;">
+    Mac OS X
+  
 #### THE BASH SHELL
 [Video tutorial](https://youtu.be/9LQhwETCdwY)
 
@@ -72,7 +77,12 @@ For older versions of OS X (10.5-10.8), use the most recent available installer 
 If you don't already have a text editor that you're familiar with, **TextEdit** is a text editor that comes with Mac OS X, and it will serve for the purpose of our workshop. 
 
 
-### Linux
+<h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
+  width="60"
+  height="60"
+  style="float:left;">
+    Linux
+
 #### THE BASH SHELL
 The default shell is usually Bash and there is usually no need to install anything.
 
