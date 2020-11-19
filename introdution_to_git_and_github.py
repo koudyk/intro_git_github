@@ -39,42 +39,89 @@
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Outline
 #
-# 1. Background: Why git & GitHub are useful (Goal 1) 
-# 2. Background: How git works (FYI)
-# 3. Hands-on: How to and share your work (Goal 2)
+# - Setup
+# - Why use git & GitHub
+# - How git works
+#   - Where does git store information?
+#   - 
+# - Hands-on: How to and share your work (Goal 2)
+# -
+
+# # Setup
+#
+# ## To follow on your machine, you'll need
+# 1. Bash 
+# 2. Git 
+# 3. Text editor 
+# 4. GitHub account
+#
+# ## Let's check
+# - Open a Bash shell and type
+# ```
+# git --version
+# ```
+# - Open a text editor
+# - Go to your github page
+#
+# ## Configure git
+# ```
+# git config --global user.name "Vlad Dracula"
+# git config --global user.email "vlad@tran.sylvan.ia"
+# ```
+#
+# ## Line endings
+# #### macOS / Linux
+# ```
+# git config --global core.autocrlf input
+# ```
+#
+# #### Windows
+# ```
+# git config --global core.autocrlf input
+# ```
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # #### Part 1/3
-# # Why git & GitHub are useful 
+# # Why use git & GitHub?
 # #### (Goal 1)
 #
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# # Why do you think git & GitHub are useful?
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# - (your ideas)
-# -
-
-# # Version Control
-
 # ![](https://uidaholib.github.io/get-git/images/phd101212s.gif)
 # “Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com
 
-# # Unlimited 'undo'
+# + [markdown] slideshow={"slide_type": "slide"}
+# ### Why use git & GitHub?
+# # Version control
+#
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# ### What is version control and why should I use it?
+# - your ideas
+
+# + [markdown] slideshow={"slide_type": "slide"}
+# ## Record versions by tracking *changes*
+# It's like having an unlimited "undo" button
 # ![](https://swcarpentry.github.io/git-novice/fig/play-changes.svg)
 
-# # Independent sets of changes
+# + [markdown] slideshow={"slide_type": "slide"}
+# ## Make independent changes
 # ![](https://swcarpentry.github.io/git-novice/fig/versions.svg)
 
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ## And incorporate the changes
 # ![](https://swcarpentry.github.io/git-novice/fig/merge.svg)
 
-# ### Why use git/Github? 
-# # Open science
+# + [markdown] slideshow={"slide_type": "slide"}
+# ### Why use git & GitHub?
+# # Open Science
 
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/open_science_buffet.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
 # ![](figures/open_science_buffet_with_circle.png)
-
-#
+# -
 
 # #### Part 2/3
 # # How git & GitHub work
@@ -96,38 +143,7 @@
 # # Git buffet
 # ![](figures/git_github_buffet_with_square.png)
 
-# # Are we ready?
-
-# ## To follow on your machine, you'll need
-# 1. Bash 
-# 2. Git 
-# 3. Text editor 
-# 4. GitHub account
-
-# ## Let's check
-# - Open a Bash shell and type
-# ```
-# git --version
-# ```
-# - Open a text editor
-# - Go to your github page
-
-# ## Configure git
-# ```
-# git config --global user.name "Vlad Dracula"
-# git config --global user.email "vlad@tran.sylvan.ia"
-# ```
 #
-# ## Line endings
-# #### macOS / Linux
-# ```
-# git config --global core.autocrlf input
-# ```
-#
-# #### Windows
-# ```
-# git config --global core.autocrlf input
-# ```
 
 #
 
