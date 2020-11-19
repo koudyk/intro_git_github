@@ -16,10 +16,11 @@ Here are the instructions for installing a Bash shell, Git, and a text editor on
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. 
 
 <h1> <img src="https://diymediahome.org/wp-content/uploads/Windows_7_logo.png"
-  width="60"
-  height="60"
+  width="50"
+  height="50"
   style="float:left;">
     Windows
+  
 #### THE BASH SHELL and GIT
 
 Installing Git Bash will give you both Git and Bash.
@@ -52,8 +53,8 @@ If you don't already have a text editor that you're familiar with, **Notepad** i
 
 
 <h1> <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/apple-logo.gif"
-  width="60"
-  height="60"
+  width="50"
+  height="50"
   style="float:left;">
     Mac OS X
   
@@ -78,8 +79,8 @@ If you don't already have a text editor that you're familiar with, **TextEdit** 
 
 
 <h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
-  width="60"
-  height="60"
+  width="50"
+  height="50"
   style="float:left;">
     Linux
 
