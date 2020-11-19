@@ -1,6 +1,6 @@
 # Installation instructions
 
-*These instructions are largely quoted from the [setup instructions for NeuroHackademy](https://neurohackademy.org/setup/)*
+*These instructions are largely quoted from the [setup instructions for Software Carpentries](https://carpentries.github.io/workshop-template/#git)*
 
 ## Summary
 For this class, you'll need
@@ -17,44 +17,51 @@ Bash is a commonly-used shell that gives you the power to do simple tasks more q
 
 ### Windows
 #### THE BASH SHELL and GIT
+
 Installing Git Bash will give you both Git and Bash.
 
-[Video tutorial](https://www.youtube.com/watch?v=339AEqk9c-8)
+[Video tutorial](https://youtu.be/339AEqk9c-8)
 
-1. Download the Git for Windows installer.
-2. Run the installer and follow the steps bellow:
-    - Click on “Next”.
-    - Click on “Next”.
-    - **Keep “Use Git from the Windows Command Prompt” selected and click on “Next”.**
-    - Click on “Next”.
-    - **Keep “Checkout Windows-style, commit Unix-style line endings” selected and click on “Next”.**
-    - **Keep “Use Windows’ default console window” selected and click on “Next”.**
-    - Click on “Install”.
-    - Click on “Finish”.
+1. Download the [Git for Windows installer](https://gitforwindows.org/).
+2. Find the installer in your Downloads folder, click on it, and follow the steps bellow:
+    - Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the Information, location, components, and start menu screens.
+    - **From the dropdown menu select "Use the Nano editor by default" (NOTE: you will need to scroll up to find it) and click on "Next".** If this doesn't work, select "Vim".
+    - On the page that says "Adjusting the name of the initial branch in new repositories", ensure that "Let Git decide" is selected. This will ensure the highest level of compatibility for our lessons.
+    - Ensure that "Git from the command line and also from 3rd-party software" is selected and click on "Next". (If you don't do this Git Bash will not work properly, requiring you to remove the Git Bash installation, re-run the installer and to select the "Git from the command line and also from 3rd-party software" option.)
+    - Ensure that "Use the native Windows Secure Channel Library" is selected and click on "Next".
+    - Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
+    - **Ensure that "Use Windows' default console window" is selected and click on "Next".**
+    - Ensure that "Default (fast-forward or merge) is selected and click "Next"
+    - Ensure that "Git Credential Manager Core" is selected and click on "Next".
+    - Ensure that "Enable file system caching" is selected and click on "Next".
+    - Click on "Install".
+    - Click on "Finish" or "Next".
 3. If your “HOME” environment variable is not set (or you don’t know what this is):
-    - Open command prompt (Open Start Menu then type `cmd` and press [Enter])
+    - Open command prompt (Open Start Menu then type cmd and press [Enter])
     - Type the following line into the command prompt window exactly as shown:`setx HOME "%USERPROFILE%"`
-    - Press [Enter], you should see `SUCCESS: Specified value was saved`.
-    - Quit command prompt by typing exit then pressing [Enter]
+    - Press [Enter], you should see SUCCESS: Specified value was saved.
+    - Quit command prompt by typing `exit` then pressing [Enter]
 
-To check your installation, open your bash shell and type `git --version` and press [enter]. The output should be something like `git version 2.17.1` (the numbers will probably be different).
 
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **Notepad** is a text editor that comes with Windows, and it will serve for the purpose of our workshop. 
 
 ### Mac OS X
 #### THE BASH SHELL
-The default shell in all versions of Mac OS X is Bash, so no need to install anything. You access Bash from the Terminal (found in `/Applications/Utilities`). See the Git installation [video tutorial](https://www.youtube.com/watch?v=9LQhwETCdwY) for an example on how to open the Terminal. You may want to keep Terminal in your dock for this class.
+[Video tutorial](https://youtu.be/9LQhwETCdwY)
+
+The default shell in some versions of macOS is Bash, and Bash is available in all versions, so no need to install anything. You access Bash from the Terminal (found in `/Applications/Utilities`). See the Git installation [video tutorial](https://carpentries.github.io/workshop-template/#shell-macos-video-tutorial) for an example on how to open the Terminal. You may want to keep Terminal in your dock for this workshop.
+
+To see if your default shell is Bash type `echo $SHELL` in Terminal and press the Return key. If the message printed does not end with '/bash' then your default is something else and you can run Bash by typing `bash` .
+
 
 #### GIT
-[Video Tutorial](https://www.youtube.com/watch?v=9LQhwETCdwY)
+[Video Tutorial](https://youtu.be/9LQhwETCdwY)
 
-For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent “mavericks” installer from this list. After installing Git, there will not be anything in your /Applications folder,
-as Git is a command line program. 
+For OS X 10.9 and higher, install Git for Mac by downloading and running the most recent "mavericks" installer from this list. Because this installer is not signed by the developer, you may have to right click (control click) on the .pkg file, click Open, and click Open on the pop up window. After installing Git, there will not be anything in your `/Applications` folder, as Git is a command line program. 
 
-For older versions of OS X (10.5-10.8) use the most recent available installer labelled “snow-leopard” available here.
+For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files/).
 
-To check your installation, open your bash shell and type `git --version` and press [enter]. The output should be something like `git version 2.17.1` (the numbers will probably be different).
 
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **TextEdit** is a text editor that comes with Mac OS X, and it will serve for the purpose of our workshop. 
@@ -62,19 +69,15 @@ If you don't already have a text editor that you're familiar with, **TextEdit** 
 
 ### Linux
 #### THE BASH SHELL
-The default shell is usually Bash, but if your machine is set up differently you can run it by opening a
-terminal and typing `bash`. There is no need to install anything.
+The default shell is usually Bash and there is usually no need to install anything.
+
+To see if your default shell is Bash type `echo $SHELL` in a terminal and press the Enter key. If the message printed does not end with '/bash' then your default is something else and you can run Bash by typing `bash` .
+
 
 #### GIT
-Option 1: Install through the bash terminal
-- If you have a Debian/Ubuntu operating system, open bash and run `sudo apt-get install git` 
-- If you have a Fedora operating system, open bash and run `sudo yum install git`
-
-Option 2: Install through the package manager
-- Search for 'git' on your distrubution's package manager (e.g., this is called 'Ubuntu Software' on the Ubuntu OS)
-- Click 'install' 
-
-To check your installation, open your bash shell and type `git --version` and press [enter]. The output should be something like `git version 2.17.1` (the numbers will probably be different).
+If Git is not already available on your machine you can try to install it via your distro's package manager:
+- For Debian/Ubuntu run `sudo apt-get install git`
+- For Fedora run `sudo dnf install git` 
 
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **Gedit** is a text editor that comes with many linux distributions, and it will serve for the purpose of our workshop. 
