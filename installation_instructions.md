@@ -4,18 +4,21 @@
 
 ## Summary
 For this class, you'll need
-1. A Bash shell
-2. The version control system [Git](https://git-scm.com/)
-3. A text editor you’re comfortable with (nano, emacs, vi, Sublime Text, Atom, VSCode, etc.)
-4. A [GitHub](https://github.com/) account. Basic GitHub accounts are free, and we encourage you to create a GitHub account if you don’t have one already. Please consider what personal information you’d like to reveal. For example, you may want to review these [instructions for keeping your email address private provided at GitHub](https://help.github.com/articles/keeping-your-email-address-private/).
-5. A modern browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above)
+1. **A Bash shell** (Bash is a commonly-used shell that gives you the power to do simple tasks more quickly)
+2. **The version control system [Git](https://git-scm.com/)** (Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com)
+3. **A text editor you’re comfortable with** (Notepad, TextEdit, Gedit, nano, emacs, vi, Sublime Text, Atom, VSCode, etc.)
+4. **A [GitHub](https://github.com/) account** (Basic GitHub accounts are free, and we encourage you to create a GitHub account if you don’t have one already. Please consider what personal information you’d like to reveal. For example, you may want to review these [instructions for keeping your email address private provided at GitHub](https://help.github.com/articles/keeping-your-email-address-private/))
+5. **A modern browser** (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above)
 
 ## Detailed instructions
-Here are the instructions for installing a Bash shell, Git, and a text editor on [Windows](#windows), [Mac OS X](#mac-os-x), or [Linux](#linux). 
+Here are the instructions for installing a Bash shell and Git, and for finding a text editor on [Windows](#-----windows), [Mac OS X](#-----mac-os-x), or [Linux](#-----linux). 
 
-Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. 
-
-### Windows
+<h1> <img src="https://diymediahome.org/wp-content/uploads/Windows_7_logo.png"
+  width="50"
+  height="50"
+  style="float:left;">
+    Windows
+  
 #### THE BASH SHELL and GIT
 
 Installing Git Bash will give you both Git and Bash.
@@ -46,7 +49,13 @@ Installing Git Bash will give you both Git and Bash.
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **Notepad** is a text editor that comes with Windows, and it will serve for the purpose of our workshop. 
 
-### Mac OS X
+
+<h1> <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/apple-logo.gif"
+  width="50"
+  height="50"
+  style="float:left;">
+    Mac OS X
+  
 #### THE BASH SHELL
 [Video tutorial](https://youtu.be/9LQhwETCdwY)
 
@@ -67,7 +76,12 @@ For older versions of OS X (10.5-10.8), use the most recent available installer 
 If you don't already have a text editor that you're familiar with, **TextEdit** is a text editor that comes with Mac OS X, and it will serve for the purpose of our workshop. 
 
 
-### Linux
+<h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
+  width="50"
+  height="50"
+  style="float:left;">
+    Linux
+
 #### THE BASH SHELL
 The default shell is usually Bash and there is usually no need to install anything.
 
