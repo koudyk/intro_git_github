@@ -15,7 +15,12 @@ Here are the instructions for installing a Bash shell, Git, and a text editor on
 
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly. Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. 
 
-### Windows
+<h1> <img src="https://diymediahome.org/wp-content/uploads/Windows_7_logo.png"
+  width="60"
+  height="60"
+  style="float:left;">
+    ### Windows
+
 #### THE BASH SHELL and GIT
 
 Installing Git Bash will give you both Git and Bash.
