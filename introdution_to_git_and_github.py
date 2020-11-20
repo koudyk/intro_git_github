@@ -32,9 +32,13 @@
 # ### 2. Be able to track and share your work using git & GitHub
 #
 
+# + [markdown] slideshow={"slide_type": "slide"}
+# Keep Zoom's 'Participants' window open. You'll need these:
+# ![](https://www.rluk.ac.uk/wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-11.13.20.png)
+
 # + [markdown] slideshow={"slide_type": "subslide"}
 # # What's your experience?
-# ### Respond with 'yes'  if you're comfortable with 
+# ### Respond with 'yes'  if you're comfortable with
 # ![](figures/zoom_icons/yes.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -42,11 +46,11 @@
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Git
-# (These commands: `status` &nbsp; &nbsp; 
-# `add` &nbsp; &nbsp; 
-# `init` &nbsp; &nbsp; 
-# `commit` &nbsp; &nbsp; 
-# `diff` &nbsp; &nbsp; 
+# (These commands: `status` &nbsp; &nbsp;
+# `add` &nbsp; &nbsp;
+# `init` &nbsp; &nbsp;
+# `commit` &nbsp; &nbsp;
+# `diff` &nbsp; &nbsp;
 # `push` &nbsp; &nbsp;)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -56,12 +60,12 @@
 # # Is this workshop for you?
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# # On learning git & GitHub 
+# # On learning git & GitHub
 # ![](figures/doing_and_understanding_with_line.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# # When you're not following, 
-# # turn on your mic and say something :) 
+# # When you're not following,
+# # turn on your mic and say something :)
 #
 
 # + [markdown] slideshow={"slide_type": "slide"}
@@ -74,7 +78,7 @@
 # - How do I record changes in git?
 # - How do I share my changes on the web?
 # - Goals
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Much of this is borrowed from the **"Version control with Git"** tutorial by Software Carpentries
@@ -102,9 +106,9 @@
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## To follow on your machine, you'll need
-# 1. Bash 
-# 2. Git 
-# 3. Text editor 
+# 1. Bash
+# 2. Git
+# 3. Text editor
 # 4. GitHub account
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -116,6 +120,9 @@
 # + [markdown] slideshow={"slide_type": "fragment"}
 # If you answered 'yes' to all 3, click 'yes'
 # ![](figures/zoom_icons/yes.png)
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# If not, follow this link (I'll put it in the Zoom comments): http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## Configure git
@@ -149,7 +156,7 @@
 # - How do I record changes in git?
 # - How do I share my changes on the web?
 # - Goals
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
 #
@@ -196,7 +203,7 @@
 # - How do I record changes in git?
 # - How do I share my changes on the web?
 # - Goals
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # Open your Bash shell (where you typed `git --version` at the beginning)
@@ -239,7 +246,7 @@
 # - **How do I record changes in git?**
 # - How do I share my changes on the web?
 # - Goals
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # ![](figures/workflow/wf1_our_machine.png)
@@ -307,7 +314,7 @@
 # ```
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# # We forgot cake! 
+# # We forgot cake!
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ```
@@ -388,7 +395,6 @@
 # - `git commit -m "<this is what I did>"`
 # - make the change
 # - `git add <file>`
-# ![](figures/workflow/wf4b_empty_workflow.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Add your favorite dessert to the list and track the change
@@ -404,7 +410,7 @@
 # - How do I record changes in git?
 # - **How do I share my changes on the web?**
 # - Goals
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # ![](figures/workflow/wf5_remote_workflow.png)
@@ -416,7 +422,7 @@
 # - Go to github.com
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# - Beside **Repositories**, click **New** 
+# - Beside **Repositories**, click **New**
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # - Enter your repo name
@@ -461,7 +467,7 @@
 # On your GitHub repo
 # - Click on **desserts.md**
 #
-# - Click **History** 
+# - Click **History**
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # - What do we see when we click on a commit message?
@@ -479,7 +485,7 @@
 # - How do I record changes in git?
 # - How do I share my changes on the web?
 # - **Goals**
-# - Conclusion
+# - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Did we meet our goals?
@@ -501,12 +507,12 @@
 # ### Fill in the blanks
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# `status` &nbsp; &nbsp; 
-# `add` &nbsp; &nbsp; 
-# `init` &nbsp; &nbsp; 
-# `commit` &nbsp; &nbsp; 
-# `diff` &nbsp; &nbsp; 
-# `push` &nbsp; &nbsp; 
+# `status` &nbsp; &nbsp;
+# `add` &nbsp; &nbsp;
+# `init` &nbsp; &nbsp;
+# `commit` &nbsp; &nbsp;
+# `diff` &nbsp; &nbsp;
+# `push` &nbsp; &nbsp;
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Basic workflow for tracking a change and putting it on GitHub
@@ -520,7 +526,7 @@
 # - check what git tracked: `git ____`
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# ### Now use each command 
+# ### Now use each command
 # to make a file called `snacks.md` in the `desserts` folder
 
 # + [markdown] slideshow={"slide_type": "slide"}
@@ -536,7 +542,7 @@
 # - How do I record changes in git?
 # - How do I share my changes on the web?
 # - Goals
-# - **Conclusion**
+# - **What/how to keep learning**
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # There's so much more to git & GitHub!
@@ -546,6 +552,15 @@
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ![](figures/workflow/wf7_extras_remote.png)
+
+# + [markdown] slideshow={"slide_type": "slide"}
+# # Branches
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/branches_features.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/branches_collab.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # # Git buffet
