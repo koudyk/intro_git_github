@@ -264,7 +264,7 @@
 # ### `git add`
 # ![](https://i.gifer.com/YKCS.gif)
 # ### `git commit`
-# ![](https://lh3.googleusercontent.com/proxy/X4XJAX5f-JVxMBrXfHTupEagyCxjUc5VXY-th6wWMoC_NprWkloraT0JA5c69rkhtuZ1w0eyLA-F28SJP8TXB8UV4AeZWku5zPHd4mBdcZphJuHQD1TggyRo4vmn81H7nHeDKXdCBswm7TZP05jAOYBi__tSA36DfaYrzcrVOyG1m-3YZ4kidsGsr-1cg9U8lZS9fzgCuTNP8bQJUhRyH-4Y05SJmMB6)
+# ![](https://www.nydailynews.com/resizer/nJ3qGqkV_0Z6WzIGAWktQ0pKlIE=/415x229/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/JOYD6SAJXDW4JQJSKWAZIY266Y.jpg)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # Let's make a change!
