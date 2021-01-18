@@ -11,6 +11,3 @@ For this class, you'll need
 5. A modern browser
 
 Before class, please follow the [installation instructions](https://github.com/koudyk/intro_git_github/blob/main/installation_instructions.md) to make sure you have all these requirements. 
-
-## If you couldn't do the installation
-[Open this link](https://mybinder.org/v2/gh/koudyk/intro_git_github/HEAD?filepath=introdution_to_git_and_github.ipynb)
