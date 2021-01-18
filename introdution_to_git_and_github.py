@@ -66,6 +66,8 @@
 # - Can you open a text editor?
 # - Can you go your GitHub account?
 # - When you open a Bash shell and type `git --version`, does it output the version number?
+#
+# (macOS / Linux: you might need to run `conda install -c anaconda git`)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # If you answered 'yes' to all 3, click
@@ -185,14 +187,14 @@
 # Create a directory
 # ```
 # cd ~/Desktop
-# mkdir oudyks_desserts
+# # # mkdir oudyks_desserts
 # cd oudyks_desserts
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # What's in our directory?
 # ```
-# ls -a
+# # # ls -a
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -204,7 +206,7 @@
 # + [markdown] slideshow={"slide_type": "fragment"}
 # What's in our directory now?
 # ```
-# ls -a
+# # # ls -a
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -447,6 +449,7 @@
 # git branch -M main
 # ```
 # ![](figures/master_to_main.png)
+# https://sfconservancy.org/news/2020/jun/23/gitbranchname/
 #
 
 # + [markdown] slideshow={"slide_type": "subslide"}
