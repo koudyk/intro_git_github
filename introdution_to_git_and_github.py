@@ -50,10 +50,6 @@
 # - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# Keep Zoom's 'Participants' window open. You'll need these:
-# ![](https://www.rluk.ac.uk/wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-11.13.20.png)
-
-# + [markdown] slideshow={"slide_type": "slide"}
 # # Setup
 # ### To follow on your machine, you'll need
 # 1. Bash
@@ -61,17 +57,23 @@
 # 3. Text editor
 # 4. GitHub account
 
-# + [markdown] slideshow={"slide_type": "fragment"}
+# + [markdown] slideshow={"slide_type": "subslide"}
 # ### Check if you're ready
-# - Can you open a text editor?
-# - Can you go your GitHub account?
-# - When you open a Bash shell and type `git --version`, does it output the version number?
+# 1. Can you open a text editor?
+# 2. Can you go your GitHub account?
+# 3. When you open a Bash shell and type `git --version`, does it output the version number?
 #
-# (macOS / Linux: you might need to run `conda install -c anaconda git`)
+# **macOS / Linux**: you might need to run 
+#
+# `conda install -c anaconda git`
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# If you answered 'yes' to all 3, click
-# ![](figures/zoom_icons/yes.png)
+# If you answered 'yes' to all 3, click Raise Hand
+# ![](figures/zoom_icons/raise_hand.png)
+#
+# If you're having trouble, describe your problem in the Q&A
+# ![](figures/zoom_icons/q_and_a.png)
+#
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## Configure git
@@ -90,25 +92,28 @@
 # #### Windows
 # ```
 # git config --global core.autocrlf true
+#
 # ```
+#
+# <font color='grey'>I'll put this in the Slack for those still installing</font>
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # When you're done, click
-# ![](figures/zoom_icons/faster.png)
+# ![](figures/zoom_icons/raise_hand.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # # What's your experience?
 # ### Respond with 'yes'  if you're comfortable with
-# ![](figures/zoom_icons/yes.png)
+# ![](figures/zoom_icons/raise_hand.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# Git
-# (These commands: `status` &nbsp; &nbsp;
+# git &nbsp; &nbsp;
+# `status` &nbsp; &nbsp;
 # `add` &nbsp; &nbsp;
 # `init` &nbsp; &nbsp;
 # `commit` &nbsp; &nbsp;
 # `diff` &nbsp; &nbsp;
-# `push` &nbsp; &nbsp;)
+# `push`
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # GitHub
@@ -118,9 +123,11 @@
 # ![](figures/doing_and_understanding_cleaner.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# # When you're not following,
-# # turn on your mic and say something :)
+# ### When you need me to slow down, say something in the chat
+# ![](figures/zoom_icons/chat.png)
 #
+# ### When you have a specific question, ask in the Q&A
+# ![](figures/zoom_icons/q_and_a.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Roadmap
@@ -184,7 +191,7 @@
 # + [markdown] slideshow={"slide_type": "slide"}
 # Open your Bash shell (where you typed `git --version` at the beginning)
 #
-# Create a directory
+# Create a directory (remember Windows' slashes are the other way)
 # ```
 # cd ~/Desktop
 # # # mkdir oudyks_desserts
@@ -264,13 +271,13 @@
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Is this file being tracked?
-# ![](figures/zoom_icons/yes.png)
-# ![](figures/zoom_icons/no.png)
+# ![](figures/zoom_icons/chat.png)
 #
 # <font color='grey'>(hint: look at what your terminal says)</font>
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # How can we include this file in what will be committed?
+# ![](figures/zoom_icons/chat.png)
 #
 #
 #
@@ -327,6 +334,8 @@
 # ```
 # git ____
 # ```
+# ![](figures/zoom_icons/chat.png)
+#
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Let's stage and commit the change
@@ -334,6 +343,8 @@
 # git ____ desserts.md
 # git commit -m "add cake to list of desserts"
 # ```
+# ![](figures/zoom_icons/chat.png)
+#
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # ## I change my mind...
@@ -357,9 +368,9 @@
 # ```
 # git diff
 # ```
-
-# + [markdown] slideshow={"slide_type": "fragment"}
+#
 # How could we figure out what this command does?
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Let's stage and commit the change
@@ -367,6 +378,7 @@
 # git ____ desserts.md
 # git ____ -m "switch cookies and ice cream"
 # ```
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Check your understanding
@@ -379,8 +391,7 @@
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Does git track changes to each letter?
-# ![](figures/zoom_icons/yes.png)
-# ![](figures/zoom_icons/no.png)
+# ![](figures/zoom_icons/chat.png)
 #
 
 # + [markdown] slideshow={"slide_type": "subslide"}
@@ -394,11 +405,12 @@
 # b) make the change\
 # c) `git add <file>`
 #
-# *(put your answer in the chat box)*
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Add your favorite dessert to the list and track the change
-#
+# When done, 
+# ![](figures/zoom_icons/raise_hand.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Roadmap
@@ -463,8 +475,8 @@
 # Refresh your GitHub repo
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# Click 'yes' if you see `desserts.md` on your GitHub repo
-# ![](figures/zoom_icons/yes.png)
+# Raise your hand if you see `desserts.md` on your GitHub repo
+# ![](figures/zoom_icons/raise_hand.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # ### Use GitHub to look at your file's history
@@ -501,15 +513,17 @@
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ... to a 10-year-old
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ... to a new grad student
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ### 2. Track and share your work  using git & GitHub
+# ## 2. Track and share your work  using git & GitHub
 #
 
-# + [markdown] slideshow={"slide_type": "fragment"}
+# + [markdown] slideshow={"slide_type": "subslide"}
 # `status` &nbsp; &nbsp;
 # `add` &nbsp; &nbsp;
 # `init` &nbsp; &nbsp;
@@ -526,10 +540,12 @@
 # **See what's happening with git**
 # - show the working tree status: `git ____`
 # - show how the file changed: `git ____`
+#
+# ![](figures/zoom_icons/chat.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Now use these commands to make *snacks.md*
-# ![](figures/zoom_icons/yes.png)
+# ![](figures/zoom_icons/raise_hand.png)
 
 # + [markdown] slideshow={"slide_type": "skip"}
 # ![](https://media1.tenor.com/images/ae1fd92f4ed82fba165d777e4a05c9de/tenor.gif?itemid=14220287)
