@@ -20,52 +20,21 @@
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Introduction to Git and GitHub
 #
-# For NEUR608 \
-# 2020-11-19 \
+# For the workshop on Machine Learning for Cognitive Neuroscience \
+# 2021-01 \
 # Kendra Oudyk
+#
+#
+# Much of this is borrowed from the **"Version control with Git"** tutorial by Software Carpentries
+#
+# https://swcarpentry.github.io/git-novice/
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Goals
 #
 # ### 1. Explain why git & GitHub are useful
 #
-# ### 2. Be able to track and share your work using git & GitHub
-#
-
-# + [markdown] slideshow={"slide_type": "slide"}
-# Keep Zoom's 'Participants' window open. You'll need these:
-# ![](https://www.rluk.ac.uk/wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-11.13.20.png)
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# # What's your experience?
-# ### Respond with 'yes'  if you're comfortable with
-# ![](figures/zoom_icons/yes.png)
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# Bash
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# Git
-# (These commands: `status` &nbsp; &nbsp;
-# `add` &nbsp; &nbsp;
-# `init` &nbsp; &nbsp;
-# `commit` &nbsp; &nbsp;
-# `diff` &nbsp; &nbsp;
-# `push` &nbsp; &nbsp;)
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# GitHub
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# # Is this workshop for you?
-
-# + [markdown] slideshow={"slide_type": "slide"}
-# # On learning git & GitHub
-# ![](figures/doing_and_understanding_with_line.png)
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# # When you're not following,
-# # turn on your mic and say something :)
+# ### 2. Track and share your work using git & GitHub
 #
 
 # + [markdown] slideshow={"slide_type": "slide"}
@@ -80,49 +49,27 @@
 # - Goals
 # - What/how to keep learning
 
-# + [markdown] slideshow={"slide_type": "fragment"}
-# Much of this is borrowed from the **"Version control with Git"** tutorial by Software Carpentries
-#
-# https://swcarpentry.github.io/git-novice/
-#
+# + [markdown] slideshow={"slide_type": "slide"}
+# Keep Zoom's 'Participants' window open. You'll need these:
+# ![](https://www.rluk.ac.uk/wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-11.13.20.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Setup
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# ### Which operating system are you using?
-#
-#
-# Windows
-# ![](figures/zoom_icons/no.png)
-#
-# MacOS
-# ![](figures/zoom_icons/slower.png)
-#
-# Linux
-# ![](figures/zoom_icons/yes.png)
-#
-#
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# ## To follow on your machine, you'll need
+# ### To follow on your machine, you'll need
 # 1. Bash
 # 2. Git
 # 3. Text editor
 # 4. GitHub account
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# ## Check if you're ready
+# ### Check if you're ready
 # - Can you open a text editor?
 # - Can you go your GitHub account?
 # - When you open a Bash shell and type `git --version`, does it output the version number?
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# If you answered 'yes' to all 3, click 'yes'
+# If you answered 'yes' to all 3, click
 # ![](figures/zoom_icons/yes.png)
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# If not, follow this link (I'll put it in the Zoom comments): http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## Configure git
@@ -130,6 +77,7 @@
 # git config --global user.name "Vlad Dracula"
 # git config --global user.email "vlad@tran.sylvan.ia"
 # ```
+# *use the email you used for your GitHub account*  👆
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # #### macOS / Linux
@@ -143,8 +91,34 @@
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# When you're done, click 'yes'
+# When you're done, click
+# ![](figures/zoom_icons/faster.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# # What's your experience?
+# ### Respond with 'yes'  if you're comfortable with
 # ![](figures/zoom_icons/yes.png)
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# Git
+# (These commands: `status` &nbsp; &nbsp;
+# `add` &nbsp; &nbsp;
+# `init` &nbsp; &nbsp;
+# `commit` &nbsp; &nbsp;
+# `diff` &nbsp; &nbsp;
+# `push` &nbsp; &nbsp;)
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# GitHub
+
+# + [markdown] slideshow={"slide_type": "slide"}
+# # On learning git & GitHub
+# ![](figures/doing_and_understanding_cleaner.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# # When you're not following,
+# # turn on your mic and say something :)
+#
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Roadmap
@@ -175,8 +149,6 @@
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ### Make independent changes
-# e.g., while collaborating
-#
 # ![](https://swcarpentry.github.io/git-novice/fig/versions.svg)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -187,11 +159,13 @@
 # https://swcarpentry.github.io/git-novice/
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# ### Why use git & GitHub?
 # # Open Science
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ![](figures/open_science_buffet.png)
+#
+# <font color='lightgrey'>(Credit to Christina Bergmann for the idea of the 'Open Science Buffet')</font>
+#
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Roadmap
@@ -211,14 +185,14 @@
 # Create a directory
 # ```
 # cd ~/Desktop
-# # # mkdir kendras_desserts
-# cd kendras_desserts
+# mkdir oudyks_desserts
+# cd oudyks_desserts
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # What's in our directory?
 # ```
-# # # ls -a
+# ls -a
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -230,7 +204,7 @@
 # + [markdown] slideshow={"slide_type": "fragment"}
 # What's in our directory now?
 # ```
-# # # ls -a
+# ls -a
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -249,16 +223,10 @@
 # - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# ![](figures/workflow/wf1_our_machine.png)
+# ![](figures/workflow/w0_init.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ![](figures/workflow/wf2_dot_git.png)
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# ![](figures/workflow/wf3_full_our_machine.png)
-
-# + [markdown] slideshow={"slide_type": "subslide"}
-# ![](figures/workflow/wf4_our_machine_workflow.png)
+# ![](figures/workflow/w1_local.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ### `git add`
@@ -276,12 +244,15 @@
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Write this in the file:
 #
-# > My favorite desserts are:
-# > 1. pie
-# > 2. ice cream
-# > 3. cookies
+# > pie\
+# > ice cream\
+# > cookies
 #
 # Save and exit
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# Reminder to let me know if you need me to slow down
+# ![](https://goldstarteachers.com/wp-content/uploads/2018/09/Confused-GIF.gif)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # Let's check the status of our repo
@@ -290,6 +261,21 @@
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
+# Is this file being tracked?
+# ![](figures/zoom_icons/yes.png)
+# ![](figures/zoom_icons/no.png)
+#
+# <font color='grey'>(hint: look at what your terminal says)</font>
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# How can we include this file in what will be committed?
+#
+#
+#
+#
+#
+
+# + [markdown] slideshow={"slide_type": "subslide"}
 # Let's stage the change
 # ```
 # git add desserts.md
@@ -321,11 +307,10 @@
 # <text editor> desserts.md
 # ```
 #
-# > My favorite desserts are:
-# > 1. pie
-# > 2. ice cream
-# > 3. cookies
-# > 4. cake
+# > pie\
+# > ice cream\
+# > cookies\
+# > cake
 #
 # Save and exit
 
@@ -349,18 +334,19 @@
 # ```
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# # ACTUALLY, cookies are better than ice cream
+# ## I change my mind...
+# ## cookies are better than ice cream
 #
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ```
-# <text editor> desserts.md
+# $ <text editor> desserts.md
 # ```
-# > My favorite desserts are:
-# > 1. pie
-# > 2. cookies
-# > 3. ice cream
-# > 4. cake
+#
+# > pie\
+# > cookies\
+# > ice cream\
+# > cake
 #
 # Save and exit
 
@@ -369,6 +355,9 @@
 # ```
 # git diff
 # ```
+
+# + [markdown] slideshow={"slide_type": "fragment"}
+# How could we figure out what this command does?
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Let's stage and commit the change
@@ -386,15 +375,24 @@
 # ![](https://swcarpentry.github.io/git-novice/fig/play-changes.svg)
 #
 
+# + [markdown] slideshow={"slide_type": "fragment"}
+# ### Does git track changes to each letter?
+# ![](figures/zoom_icons/yes.png)
+# ![](figures/zoom_icons/no.png)
+#
+
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## How do I get Git to track a change?
 #
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# Put these in order
-# - `git commit -m "<this is what I did>"`
-# - make the change
-# - `git add <file>`
+# Put these in order:
+#
+# a) `git commit -m "<this is what I did>"`\
+# b) make the change\
+# c) `git add <file>`
+#
+# *(put your answer in the chat box)*
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Add your favorite dessert to the list and track the change
@@ -413,7 +411,10 @@
 # - What/how to keep learning
 
 # + [markdown] slideshow={"slide_type": "slide"}
-# ![](figures/workflow/wf5_remote_workflow.png)
+# ![](figures/workflow/w2_inspect.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/workflow/w3_remote.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## Create a remote repo
@@ -437,7 +438,7 @@
 # + [markdown] slideshow={"slide_type": "fragment"}
 # Tell git the URL of your remote repo and name it 'origin'
 # ```
-# git remote add origin https://github.com/koudyk/kendras_desserts.git
+# git remote add origin https://github.com/koudyk/oudyks_desserts.git
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
@@ -445,8 +446,10 @@
 # ```
 # git branch -M main
 # ```
+# ![](figures/master_to_main.png)
+#
 
-# + [markdown] slideshow={"slide_type": "fragment"}
+# + [markdown] slideshow={"slide_type": "subslide"}
 # Push your changes to GitHub
 # ```
 # git push -u origin main
@@ -497,14 +500,11 @@
 # ... to a 10-year-old
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# ... for your final project in NEUR608
+# ... to a new grad student
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ## 2. Track and share your work  using git & GitHub
+# ### 2. Track and share your work  using git & GitHub
 #
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# ### Fill in the blanks
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # `status` &nbsp; &nbsp;
@@ -513,23 +513,22 @@
 # `commit` &nbsp; &nbsp;
 # `diff` &nbsp; &nbsp;
 # `push` &nbsp; &nbsp;
-
-# + [markdown] slideshow={"slide_type": "fragment"}
-# Basic workflow for tracking a change and putting it on GitHub
+#
+# **Basic workflow for tracking a change and putting it on GitHub**
 # - make a change
 # - stage the change: `git ____ <filename>`
 # - commit the change: `git ____ -m "<commit message>"`
 # - put the change on GitHub: `git ____ origin main`
 #
-# See what's happening with git
-# - check repo status: `git ____`
-# - check what git tracked: `git ____`
+# **See what's happening with git**
+# - show the working tree status: `git ____`
+# - show how the file changed: `git ____`
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# ### Now use each command
-# to make a file called `snacks.md` in the `desserts` folder
+# ### Now use these commands to make *snacks.md*
+# ![](figures/zoom_icons/yes.png)
 
-# + [markdown] slideshow={"slide_type": "slide"}
+# + [markdown] slideshow={"slide_type": "skip"}
 # ![](https://media1.tenor.com/images/ae1fd92f4ed82fba165d777e4a05c9de/tenor.gif?itemid=14220287)
 
 # + [markdown] slideshow={"slide_type": "slide"}
@@ -548,10 +547,16 @@
 # # There's so much more to git & GitHub!
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ![](figures/workflow/wf6_extras.png)
+# ![](figures/workflow/w4_update.png)
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ![](figures/workflow/wf7_extras_remote.png)
+# ![](figures/workflow/w5_upstream.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/workflow/w6_undo.png)
+
+# + [markdown] slideshow={"slide_type": "subslide"}
+# ![](figures/workflow/w7_branch.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # Branches
@@ -585,7 +590,7 @@
 # ![](figures/sticky_note_on_laptop.jpg)
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ## To learn it, you need to *commit* to doing it
-# ![](figures/doing_and_understanding_with_line.png)
+# ![](figures/doing_and_understanding_cleaner.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
 # # The End
