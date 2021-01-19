@@ -59,17 +59,14 @@
 
 # + [markdown] slideshow={"slide_type": "subslide"}
 # ### Check if you're ready
-# 1. Can you open a text editor?
+# 1. Can you open a text editor? (e.g., Linux: gedit, nano. macOS: textedit. Windows: notepad)
 # 2. Can you go your GitHub account?
-# 3. When you open a Bash shell and type `git --version`, does it output the version number?
-#
-# **macOS / Linux**: you might need to run 
-#
-# `conda install -c anaconda git`
+# 3. When you open a Bash shell and type `git --version`, does it output the version number? (**macOS / Linux**: you might need to run this: `conda install -c anaconda git`)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# If you answered 'yes' to all 3, click Raise Hand
-# ![](figures/zoom_icons/raise_hand.png)
+# Check off your answers in the poll
+# ![](figures/zoom_icons/poll.png)
+#
 #
 # If you're having trouble, describe your problem in the Q&A
 # ![](figures/zoom_icons/q_and_a.png)
@@ -270,8 +267,8 @@
 # ```
 
 # + [markdown] slideshow={"slide_type": "fragment"}
-# Is this file being tracked?
-# ![](figures/zoom_icons/chat.png)
+# Is this file being tracked by git?
+# ![](figures/zoom_icons/poll.png)
 #
 # <font color='grey'>(hint: look at what your terminal says)</font>
 
@@ -405,7 +402,7 @@
 # b) make the change\
 # c) `git add <file>`
 #
-# ![](figures/zoom_icons/chat.png)
+# ![](figures/zoom_icons/poll.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Add your favorite dessert to the list and track the change
@@ -460,11 +457,9 @@
 # ```
 # git branch -M main
 # ```
-# ![](figures/master_to_main.png)
-# https://sfconservancy.org/news/2020/jun/23/gitbranchname/
 #
 
-# + [markdown] slideshow={"slide_type": "subslide"}
+# + [markdown] slideshow={"slide_type": "fragment"}
 # Push your changes to GitHub
 # ```
 # git push -u origin main
@@ -541,13 +536,13 @@
 # - show the working tree status: `git ____`
 # - show how the file changed: `git ____`
 #
-# ![](figures/zoom_icons/chat.png)
+# ![](figures/zoom_icons/poll.png)
 
 # + [markdown] slideshow={"slide_type": "fragment"}
 # ### Now use these commands to make *snacks.md*
 # ![](figures/zoom_icons/raise_hand.png)
 
-# + [markdown] slideshow={"slide_type": "skip"}
+# + [markdown] slideshow={"slide_type": "subslide"}
 # ![](https://media1.tenor.com/images/ae1fd92f4ed82fba165d777e4a05c9de/tenor.gif?itemid=14220287)
 
 # + [markdown] slideshow={"slide_type": "slide"}
@@ -595,7 +590,7 @@
 # Here are some tips
 
 # + [markdown] slideshow={"slide_type": "subslide"}
-# ## Sit down and go throuh a tutorial
+# ## Sit down and go through a tutorial
 # ![](figures/swc_git_website.png)
 #
 # ![](figures/swc_coverage.png)
@@ -612,10 +607,23 @@
 # ![](figures/doing_and_understanding_cleaner.png)
 
 # + [markdown] slideshow={"slide_type": "slide"}
+# # Quick feedback
+#
+# ### How much of this tutorial could you follow?
+# - 100 %
+# - 75 %
+# - 50 %
+# - 25 %
+# - 0 %
+#
+# ![](figures/zoom_icons/poll.png)
+#
+
+# + [markdown] slideshow={"slide_type": "slide"}
 # # The End
 #
 #
-# Sofware Carpentry's tutorial: https://swcarpentry.github.io/git-novice/
+# Software Carpentry's tutorial: https://swcarpentry.github.io/git-novice/
 #
 # My repo with these slides: https://github.com/koudyk/intro_git_github
 #
