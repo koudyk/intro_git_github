@@ -44,6 +44,16 @@ Installing Git Bash will give you both Git and Bash.
     - Type the following line into the command prompt window exactly as shown:`setx HOME "%USERPROFILE%"`
     - Press [Enter], you should see SUCCESS: Specified value was saved.
     - Quit command prompt by typing `exit` then pressing [Enter]
+4. Configure git
+```
+git config --global user.name "Vlad Dracula"
+git config --global user.email "vlad@tran.sylvan.ia"
+```
+*use the email you used for your GitHub account*  👆
+
+#### Windows
+```
+git config --global core.autocrlf true
 
 
 #### TEXT EDITOR
@@ -71,6 +81,14 @@ For OS X 10.9 and higher, install Git for Mac by downloading and running the mos
 
 For older versions of OS X (10.5-10.8), use the most recent available installer labelled "snow-leopard" [available here](http://sourceforge.net/projects/git-osx-installer/files/).
 
+Configure git
+```
+git config --global user.name "Vlad Dracula"
+git config --global user.email "vlad@tran.sylvan.ia"
+git config --global core.autocrlf input
+```
+*use the email you used for your GitHub account*  👆
+
 
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **TextEdit** is a text editor that comes with Mac OS X, and it will serve for the purpose of our workshop. 
@@ -92,6 +110,14 @@ To see if your default shell is Bash type `echo $SHELL` in a terminal and press 
 If Git is not already available on your machine you can try to install it via your distro's package manager:
 - For Debian/Ubuntu run `sudo apt-get install git`
 - For Fedora run `sudo dnf install git` 
+
+Configure git
+```
+git config --global user.name "Vlad Dracula"
+git config --global user.email "vlad@tran.sylvan.ia"
+git config --global core.autocrlf input
+```
+*use the email you used for your GitHub account*  👆
 
 #### TEXT EDITOR
 If you don't already have a text editor that you're familiar with, **Gedit** is a text editor that comes with many linux distributions, and it will serve for the purpose of our workshop. 
