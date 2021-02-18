@@ -1,4 +1,0 @@
-# Dessert #
-
-- chocolate cookies
-- tiramisu
