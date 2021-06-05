@@ -176,28 +176,6 @@ Other places specialized in hosting git repositories on the web:
 git was originally made for Linux development, which involves 1000's of contributers.
 <!-- #endregion -->
 
-<!-- #region slideshow={"slide_type": "subslide"} -->
-# What does all this *actually* look like?
-
-
-- commits: what are they under the hood ? 
-
-Commits are simply "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !!! 
-See https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html for a great explanation of what is a "commit"
-
-(but, what is a "hash" ?)
-(where are these in .git ?) 
-
-
-- branches: what are they ? 
-
-So small, so simple ! branches are little ascii files, the name of the file is the branch name, the content is the commit hash !
-
-- and while we are here : what is a tag ?
-
-A tag is very much like a branch, but will always keep the same commit. It is another name for a commit !
-<!-- #endregion -->
-
 <!-- #region slideshow={"slide_type": "slide"} -->
 # Goals
 1. Explain why git/GitHub are useful
@@ -265,6 +243,21 @@ Put it in the "staging area"
 ![](figures/code/commit.png)
 <!-- #endregion -->
 
+<!-- #region -->
+## What does all this *actually* look like?
+
+
+- commits: what are they under the hood ? 
+
+Commits are simply "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !!! 
+See https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html for a great explanation of what is a "commit"
+
+(but, what is a "hash" ?)
+(where are these in .git ?) 
+
+
+<!-- #endregion -->
+
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## Create a corresponding GitHub repo for sharing your work
 
@@ -281,6 +274,16 @@ Put it in the "staging area"
 ## Rename principal branch from *master* to *main* (if needed)
 ![](figures/code/branch_name_to_main.png)
 <!-- #endregion -->
+
+## while we are talking of branches ...
+
+- branches: what are they ? 
+
+So small, so simple ! branches are little ascii files, the name of the file is the branch name, the content is the commit hash !
+
+- and while we are here : what is a tag ?
+
+A tag is very much like a branch, but will always keep the same commit. It is another name for a commit !
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## Push changes to github
