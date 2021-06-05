@@ -243,18 +243,37 @@ Put it in the "staging area"
 ![](figures/code/commit.png)
 <!-- #endregion -->
 
-<!-- #region -->
+<!-- #region slideshow={"slide_type": "subslide"} -->
 ## What does all this *actually* look like?
-
 
 - commits: what are they under the hood ? 
 
-Commits are simply "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !!! 
-See https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html for a great explanation of what is a "commit"
+- Commits are "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !
 
-(but, what is a "hash" ?)
-(where are these in .git ?) 
+- See https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html for a great explanation of what is a "commit".
 
+- In a nutshell, a commit contains the exact state of your "working tree" (the directory you are working in) of all the files tracked by Git. 
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+![](figures/git-commit.png)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+### but, what is a "hash" like this sha1 function?
+
+A hash will take *the content* of a file or some information as an entry, and return a number that is *unique* to this file or information
+
+If anything changes in the file (even a single character), the hash will be different.
+
+### where are these in .git ?
+
+in .git/objects !
+
+
+### see what's in a commit ?
+
+`git show theuglycommitnumber-or-reference-eg-branch`
 
 <!-- #endregion -->
 
