@@ -75,15 +75,25 @@ https://swcarpentry.github.io/git-novice/
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # Git vs GitHub
 
-Git is the language.
+Git is the "language". It can be installed on any platform
 
-GitHub hosts git repositories in remote locations. 
+GitHub hosts git repositories in remote locations. GitHub is a company, the future of this company is unknown !  
+Other places specialized in hosting git repositories on the web:
+- Gitlab
+- Bitbucket
+- ...
+
+
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # Git & GitHub make your work more efficient
 
 "Time is money"
+
+- Git was built because Linus Torwarld realized that merging the work of thousands of linux kernel contributors was getting impossible with other source control systems
+- Since then: it has been adopted very widely: there is a reason :)
+- Git is good for companies and large project: it is also for scientists
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
@@ -141,6 +151,15 @@ GitHub hosts git repositories in remote locations.
 ![](figures/file_history.gif)
 <!-- #endregion -->
 
+<!-- #region slideshow={"slide_type": "subslide"} -->
+## What do we "track" with git ?
+
+- Generally : ascii files
+- Generally : small files (ascii files are often "small")
+- A repository is composed of a set of files and directories ! 
+- We know a directory (equivalently: folder) is a git repository because there is a ".git" folder in it
+<!-- #endregion -->
+
 <!-- #region slideshow={"slide_type": "slide"} -->
 # What are branches?
 <!-- #endregion -->
@@ -160,12 +179,23 @@ git was originally made for Linux development, which involves 1000's of contribu
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # What does all this *actually* look like?
 
-What is git actually tracking?
 
-MORE HERE JB
+- commits: what are they under the hood ? 
 
-- commits
-- branches
+Commits are simply "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !!! 
+See https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html for a great explanation of what is a "commit"
+
+(but, what is a "hash" ?)
+(where are these in .git ?) 
+
+
+- branches: what are they ? 
+
+So small, so simple ! branches are little ascii files, the name of the file is the branch name, the content is the commit hash !
+
+- and while we are here : what is a tag ?
+
+A tag is very much like a branch, but will always keep the same commit. It is another name for a commit !
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
