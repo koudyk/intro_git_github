@@ -19,12 +19,10 @@ jupyter:
 <!-- #endregion -->
 
 
-<!-- #region slideshow={"slide_type": "slide"} -->
-Kendra, click record!
-<!-- #endregion -->
-
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # Introduction to Git and GitHub
+
+**For the SSC workshop on "Best practices in computational reproducibility"**
 
 Kendra Oudyk
 
@@ -32,6 +30,10 @@ Kendra Oudyk
 
 Much of this is borrowed from the [**"Version control with Git"**](https://swcarpentry.github.io/git-novice/) tutorial by Software Carpentries
 <!-- #endregion -->
+
+```python
+print('hello')
+```
 
 <!-- #region slideshow={"slide_type": "slide"} -->
 # Goals
@@ -46,7 +48,7 @@ Much of this is borrowed from the [**"Version control with Git"**](https://swcar
 ![](https://uidaholib.github.io/get-git/images/phd101212s.gif)
 “Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com
 
-*Note: we don't usually track doc's with git*
+*Note: we don't usually track .doc files with git*
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
@@ -77,23 +79,32 @@ https://swcarpentry.github.io/git-novice/
 
 Git is the "language". It can be installed on any platform.
 
-GitHub hosts git repositories in remote locations. GitHub is a company, the future of this company is unknown !  
-Other places specialized in hosting git repositories on the web:
-- Gitlab
-- Bitbucket
-- ...
+GitHub hosts git repositories in remote locations. 
+<!-- #endregion -->
 
-
+<!-- #region slideshow={"slide_type": "fragment"} -->
+- GitHub is a company, the future of this company is unknown !  
+- Other places specialized in hosting git repositories on the web:
+  - Gitlab
+  - Bitbucket
+  - ...
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # Git & GitHub make your work more efficient
 
+- Git was built because Linus Torwarld realized that merging the work of thousands of linux kernel contributors was getting impossible with other source control systems
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+- Since then: it has been adopted very widely: there is a reason :)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+- Git is good for companies and large project: it is also for scientists
+
 "Time is money"
 
-- Git was built because Linus Torwarld realized that merging the work of thousands of linux kernel contributors was getting impossible with other source control systems
-- Since then: it has been adopted very widely: there is a reason :)
-- Git is good for companies and large project: it is also for scientists
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
@@ -110,7 +121,7 @@ Other places specialized in hosting git repositories on the web:
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
-![](https://git-scm.com/book/en/v2/images/snapshots.png)\
+![](https://git-scm.com/book/en/v2/images/snapshots.png)
 
 Chacon, S., & Straub, B. "Pro Git" https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 <!-- #endregion -->
@@ -134,7 +145,7 @@ Chacon, S., & Straub, B. "Pro Git" https://git-scm.com/book/en/v2/Getting-Starte
 <!-- #region slideshow={"slide_type": "fragment"} -->
 ![](figures/open_science_buffet.png)
 
-<font color='lightgrey'>(Credit to Christina Bergmann for the idea of the 'Open Science Buffet')</font>
+(Credit to Christina Bergmann for the idea of the 'Open Science Buffet')
 <!-- #endregion -->
 
 
@@ -160,8 +171,9 @@ Chacon, S., & Straub, B. "Pro Git" https://git-scm.com/book/en/v2/Getting-Starte
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## What do we "track" with git ?
 
-- Generally : ascii files (unformatted text, incl. characters, numbers, punctionation, tabls, and carriage returns)
-- Generally : small files (ascii files are often "small")
+- Generally : small files
+  - ascii files (unformatted text, incl. characters, numbers, punctionation, tabls, and carriage returns)
+
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "fragment"} -->
@@ -473,12 +485,11 @@ a) letter changes\
 b) line changes\
 c) document changes
 
-![](figures/zoom_icons/poll.png)
+![](figures/zoom_icons/chat.png)
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "fragment"} -->
-![](https://swcarpentry.github.io/git-novice/fig/play-changes.svg)
-
+![](figures/code/diff_before_add.png)
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
@@ -496,6 +507,7 @@ to form a basic workflow for tracking and sharing a change.
 - commit the change: `git ____ -m "<commit message>"`
 - put the change on GitHub: `git ____ origin main`
 
+![](figures/zoom_icons/chat.png)
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
@@ -534,4 +546,101 @@ Software Carpentry's tutorial: https://swcarpentry.github.io/git-novice/
 
 ![](https://media.riffsy.com/images/f9fd6fdf307421f068d82cd050eae236/tenor.gif)
 
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Introduction to Git and GitHub: Practical session
+
+**For the SSC workshop on "Best practices in computational reproducibility"**
+
+Kendra Oudyk
+
+2021-06-06
+
+Much of this is borrowed from the [**"Version control with Git"**](https://swcarpentry.github.io/git-novice/) tutorial by Software Carpentries
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Outline
+
+- Setup
+- Practice tracking and sharing your own work using git/GitHub
+- Practice collaborating using git/GitHub
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Notes
+
+- Replace <> with your own info
+- Slashes in paths go the other way in Windows\
+e.g., Linux and MacOS: `path/to/my-repo` vs Windows: `path\to\my-repo`
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Setup
+### To follow on your machine, you'll need
+1. Bash
+2. Git
+3. Text editor
+4. GitHub account
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "subslide"} -->
+## Check if you're ready
+
+1. Can you open a text editor? (e.g., Linux: gedit, nano. macOS: textedit. Windows: notepad)
+2. Can you go your GitHub account?
+3. When you open a Bash shell and type `git --version` and press ENTER, does it output the version number? 
+
+#### Put any errors/problems in the Q&A so we can keep the answer with the question
+![](figures/zoom_icons/q_and_a.png)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+#### If you anwered 'yes' to all 3 questions, raise your hand
+![](figures/zoom_icons/raise_hand.png)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "subslide"} -->
+## Configure git
+```
+git config --global user.name "<Vlad Dracula>"
+git config --global user.email "<vlad@tran.sylvan.ia>"
+```
+*use the email you used for your GitHub account*  👆
+
+#### macOS / Linux
+```
+git config --global core.autocrlf input
+```
+
+#### Windows
+```
+git config --global core.autocrlf true
+
+```
+
+### Put any errors in the Q&A
+![](figures/zoom_icons/q_and_a.png)
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Pairing up for the task practicing collaboration
+
+
+Put your **GitHub username** in one of these columns
+- **Less** experienced/confident using git/GitHub
+- **More** experienced/confident using git/GitHub
+
+
+https://docs.google.com/spreadsheets/d/18DoOFu0Qw7p2BQFK8QtHAnjiKgcR7JE6L0Ro54z4VQo/edit?usp=sharing
+
+
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "slide"} -->
+# Let's practice git/GitHub!
+
+Repository with slides and tasks (in the "Issues" tab)
+https://github.com/koudyk/intro_git_github
 <!-- #endregion -->
