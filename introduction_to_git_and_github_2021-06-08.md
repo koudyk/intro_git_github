@@ -75,7 +75,7 @@ https://swcarpentry.github.io/git-novice/
 <!-- #region slideshow={"slide_type": "subslide"} -->
 # Git vs GitHub
 
-Git is the "language". It can be installed on any platform
+Git is the "language". It can be installed on any platform.
 
 GitHub hosts git repositories in remote locations. GitHub is a company, the future of this company is unknown !  
 Other places specialized in hosting git repositories on the web:
@@ -107,6 +107,12 @@ Other places specialized in hosting git repositories on the web:
 - who did it
 - why
 - when
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "subslide"} -->
+![](https://git-scm.com/book/en/v2/images/snapshots.png)\
+
+Chacon, S., & Straub, B. "Pro Git" https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
@@ -154,9 +160,13 @@ Other places specialized in hosting git repositories on the web:
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## What do we "track" with git ?
 
-- Generally : ascii files
+- Generally : ascii files (unformatted text, incl. characters, numbers, punctionation, tabls, and carriage returns)
 - Generally : small files (ascii files are often "small")
-- A repository is composed of a set of files and directories ! 
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
+
+- A repository is composed of a set of files and directories
 - We know a directory (equivalently: folder) is a git repository because there is a ".git" folder in it
 <!-- #endregion -->
 
@@ -224,6 +234,9 @@ e.g., create a file called 'README.md'
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## Add the file so git is aware of it
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "fragment"} -->
 Put it in the "staging area"
 ![](https://i.gifer.com/YKCS.gif)
 <!-- #endregion -->
@@ -246,7 +259,7 @@ Put it in the "staging area"
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## What does all this *actually* look like?
 
-- commits: what are they under the hood ? 
+Commits: what are they under the hood ? 
 
 - Commits are "hashes". You take hashes of files, hashes of the directories, and then hash these hashes !
 
@@ -255,26 +268,34 @@ Put it in the "staging area"
 - In a nutshell, a commit contains the exact state of your "working tree" (the directory you are working in) of all the files tracked by Git. 
 <!-- #endregion -->
 
+<!-- #region slideshow={"slide_type": "subslide"} -->
+![](https://git-scm.com/book/en/v2/images/snapshots.png)
+
+Chacon, S., & Straub, B. "Pro Git" https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+<!-- #endregion -->
+
 <!-- #region slideshow={"slide_type": "fragment"} -->
 ![](figures/git-commit.png)
 <!-- #endregion -->
 
-<!-- #region slideshow={"slide_type": "fragment"} -->
+<!-- #region slideshow={"slide_type": "subslide"} -->
 ### but, what is a "hash" like this sha1 function?
 
 A hash will take *the content* of a file or some information as an entry, and return a number that is *unique* to this file or information
 
 If anything changes in the file (even a single character), the hash will be different.
+<!-- #endregion -->
 
+<!-- #region slideshow={"slide_type": "fragment"} -->
 ### where are these in .git ?
 
 in .git/objects !
+<!-- #endregion -->
 
-
+<!-- #region slideshow={"slide_type": "fragment"} -->
 ### see what's in a commit ?
 
 `git show theuglycommitnumber-or-reference-eg-branch`
-
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
@@ -294,22 +315,24 @@ in .git/objects !
 ![](figures/code/branch_name_to_main.png)
 <!-- #endregion -->
 
+<!-- #region slideshow={"slide_type": "subslide"} -->
 ## while we are talking of branches ...
 
-- branches: what are they ? 
+branches: what are they ? 
 
-So small, so simple ! branches are little ascii files, the name of the file is the branch name, the content is the commit hash !
+- So small, so simple ! branches are little ascii files, the name of the file is the branch name, the content is the commit hash !
 
-- and while we are here : what is a tag ?
+and while we are here : what is a tag ?
 
-A tag is very much like a branch, but will always keep the same commit. It is another name for a commit !
+- A tag is very much like a branch, but will always keep the same commit. It is another name for a commit !
+<!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ## Push changes to github
 `git push <remote> <branch>`\
 (the `-u` is needed only the first time) 
 ![](figures/code/push.png)
-*Note that GitHub is depreciating this authentication method*
+
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
@@ -361,7 +384,9 @@ A tag is very much like a branch, but will always keep the same commit. It is an
 Create a new branch on which store any new changes, and switch to that branch
 
 `git checkout -b <yourBranch>` \
-(`git branch <yourBranch>` + `git checkout <yourBranch>`)
+(`git branch <yourBranch>` + `git checkout <yourBranch>`)\
+(you don't need the `-b` once the branch exists)
+
 
 ![](figures/code/checkout_b.png)
 <!-- #endregion -->
@@ -377,7 +402,8 @@ Create a new branch on which store any new changes, and switch to that branch
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "fragment"} -->
-`git diff`
+`git diff`\
+(*line by line*)
 ![](figures/code/diff_before_add.png)
 <!-- #endregion -->
 
@@ -417,6 +443,11 @@ Create a new branch on which store any new changes, and switch to that branch
 ![](figures/code/network_graph_pr.png)
 <!-- #endregion -->
 
+<!-- #region slideshow={"slide_type": "fragment"} -->
+Then, when the pull request was merged..
+![](figures/code/network_graph_pr_closed.png)
+<!-- #endregion -->
+
 <!-- #region slideshow={"slide_type": "slide"} -->
 # Goals
 1. Explain why git/GitHub are useful
@@ -430,8 +461,7 @@ Create a new branch on which store any new changes, and switch to that branch
 <!-- #region slideshow={"slide_type": "subslide"} -->
 ### Check your understanding
 
-# Why would you use git? 
-Explain it in one sentence to a new grad student.
+# Explain "Why would you use git?" to a new grad student
 ![](figures/zoom_icons/chat.png)
 <!-- #endregion -->
 
@@ -469,17 +499,15 @@ to form a basic workflow for tracking and sharing a change.
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "slide"} -->
-# There's so much more!
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "fragment"} -->
-# Git buffet
-![](figures/git_github_buffet.png)
-<!-- #endregion -->
-
-<!-- #region slideshow={"slide_type": "slide"} -->
 # Git is hard
 Here are some tips
+<!-- #endregion -->
+
+<!-- #region slideshow={"slide_type": "subslide"} -->
+# Git buffet
+![](figures/git_github_buffet.png)
+
+Take away what you can; come back for more when you're ready.
 <!-- #endregion -->
 
 <!-- #region slideshow={"slide_type": "subslide"} -->
