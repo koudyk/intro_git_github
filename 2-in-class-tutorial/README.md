@@ -8,5 +8,6 @@
 - 4:20 - [Task 1: Track and share your work](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/4_task-1_track-and-share-your-work.md)
 - 4:50 - [Task 2: Collaborate on a project](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/5_task-2_collaborate-with-a-partner.md)
 - 5:10 - Submit your workflow chart (send a photo to Kendra Oudyk on Slack)
-- 5:15 - [BREAK]
-- 5:20 - Review workflow charts and other questions
+- 5:10 - [BREAK]
+- 5:15 - Review workflow charts and other questions
+- 5:30 - [END]
