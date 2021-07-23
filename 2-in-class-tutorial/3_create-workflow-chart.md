@@ -1,17 +1,7 @@
-<font size="6"> Create your own workflow chart </font>
+# Create your own workflow chart
 
 In the next two activities, you'll practice tracking and shareing your work and collaborating on a project.
 During those activities, you'll create your own flow chart showing which git commands move changes between which parts of a git project.
-
-**Outline**
-- [Goals](#goals)
-- [You'll need](#youll-need)
-- [Steps](#steps)
-  - [1. Draw the parts of a git project](#1-draw-the-parts-of-a-git-project)
-  - [2. Draw an arrow for commands that move changes.](#2-draw-an-arrow-for-commands-that-move-changes)
-  - [3. Send me a picture of your drawing.](#3-send-me-a-picture-of-your-drawing)
-  - [4. I'll review the pictures.](#4-ill-review-the-pictures)
-  - [5. We'll discuss any problems I identified.](#5-well-discuss-any-problems-i-identified)
 
 ## Goals
 1. To help you internalize what are the parts of a git project and how changes are moved between them, 

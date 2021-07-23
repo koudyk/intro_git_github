@@ -1,14 +1,14 @@
 
-<font size="6"> Review of the pre-recorded lecture
- </font>
+# Review of the pre-recorded lecture
 
 **Outline**
-- [What is distributed version control?](#what-is-distributed-version-control)
-- [Why is Git useful?](#why-is-git-useful)
-- [Track your own work with Git](#track-your-own-work-with-git)
-- [Share your work and collaborate on GitHub](#share-your-work-and-collaborate-on-github)
-- [Final tips](#final-tips)
-- [Workflow figure](#workflow-figure)
+- [Review of the pre-recorded lecture](#review-of-the-pre-recorded-lecture)
+  - [What is distributed version control?](#what-is-distributed-version-control)
+  - [Why is Git useful?](#why-is-git-useful)
+  - [Track your own work with Git](#track-your-own-work-with-git)
+  - [Share your work and collaborate on GitHub](#share-your-work-and-collaborate-on-github)
+  - [Final tips](#final-tips)
+  - [Workflow figure](#workflow-figure)
 
 -------------
 
