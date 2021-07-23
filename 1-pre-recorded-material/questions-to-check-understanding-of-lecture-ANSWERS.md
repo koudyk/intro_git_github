@@ -2,7 +2,6 @@
 
 The questions are in [this document](https://github.com/koudyk/intro_git_github/blob/main/questions-to-check-understanding-of-lecture.md)
 
-## Answers
 1. b)
 2. c)
 3. b)
