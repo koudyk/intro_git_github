@@ -1,5 +1,7 @@
 # In-class tutorial
 
+Before the tutorial, please follow these [installation instructions](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/2_installation_instructions.md).
+
 ## Schedule
 - 3:30 - [Review the pre-recorded lecture](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/1_lecture-review.md)
 - 3:50 - [Check installation](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/2_installation_instructions.md)
