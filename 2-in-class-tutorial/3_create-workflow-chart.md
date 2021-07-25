@@ -40,10 +40,11 @@ As you go through the tasks, when you run a git command that moves a change betw
   - If you run a command more than once, draw it again. This will help reinforce things.
 
 ### 3. Send me a picture of your drawing.
-At some point during the tutorial, I'll ask everyone to a picture of it of their draing and send it to me on Slack. 
+At some point during the tutorial, I'll ask everyone to a picture of it of their draing and send it to me on Slack in the
+`#03-intro-to-git-github` channel
 
 ### 4. I'll review the pictures.
 You'll a have a short break while I look at the pictures to see if anyone has misunderstood anything (e.g., I'll note if someone writes `git add` on an arrow between "my remote repo" and "another remote repo").
 
-### 5. We'll discuss any problems I identified.
+### 5. We'll discuss any problems I identified - and answer your questions
 (e.g., I'll explain that `git add` moves changes between the working directory and the staging area) 
