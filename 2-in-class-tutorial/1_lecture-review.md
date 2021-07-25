@@ -21,7 +21,7 @@
 -------------
 
 ## Why is Git useful?
-- History: git was created for a HUGE software project, so it’s very efficient, but you won’t need all its features
+- History: git was created for a HUGE software project, so it’s very efficient and has many commands, but you won’t need all its features
 
 - The user experience is more intuitive. You interact with the system like git stores a stream of snapshots instead of just differences between files. 
 ![](../figures/stream-of-snapshots.png)
@@ -77,7 +77,7 @@
   - A tag marks an important point in history (e.g., software version). Git records this as a text file, where the file name is the tag name, and the file contains the commit hash for the commit when the tag was created. It always stays with the same commit. 
   - See which branch you’re on with `git branch`
   - Start a new branch with `git branch <branch name>`
-  - Change branches with `git checkout <branch name>`
+  - Change branches (i.e., reconstruct the working directory) with `git checkout <branch name>`
   - Merge a branch into your current branch with `git merge <branch name>`
   ![](../figures/branches__labelled.png)
 
@@ -86,26 +86,26 @@
 
 ## Share your work and collaborate on GitHub
 - Remotes
-  - A remote repository can be online on a website like GitHub, BitBucket, or GitLab. It can also be on another computer that's connected by a server. 
+  - A remote repository can be online on a website like GitHub, BitBucket, or GitLab. It can also be on another computer that's connected by a server or even on another directory on the same computer or filesystem. 
   - Show your remote repos with `git remote -v`
   - Add a remote repo with `git remote add <remote name> <remote address>`
   - Push commits to a remote repo with `git push <remote name> <branch>`
   - Fetch commits from a remote repo with `git fetch <remote name>`
   - Merge fetched commits from a remote repo with `git merge <remote name>/<branch>`
 
-- Forking
+- Forking (GitHub)
   - If you want to collaborate on someone else's repository, make a "fork" of that repo onto your GitHub account, and then clone and work on your fork. A fork is like a copy. 
 
-- Pull requests
+- Pull requests (GitHub)
   - Once you've forked a remote repo, made changes, added and committed those changes, and pushed your changes to your fork on GitHub, then you can open a pull request to ask the maintainers of the original repo if they want to integrate your changes. 
   - Then the project maintainers can review your code, make suggestions / edits, and decide whether to merge it into the original repository.
  
-- GitHub issues
+- GitHub issues (GitHub!)
   - Issues can be used to report a problem, propose something new, or find something to work on. 
 
-- Merge conflicts
+- Merge conflicts (Git)
   - A merge conflict occurs if two people edit the same entity, and git can't automatically merge the two changes. For example, this could happen if two people edit the same line of code. 
-  - To fix a merge conflict, you need to manually integrate the two edits (e.g., by choosing which one to keep)
+  - To fix a merge conflict, you need to manually integrate the two edits (e.g., by choosing which one to keep or editing the file with what should be committed)
 ![](../figures/merge-conflict.png) 
 
 ------
