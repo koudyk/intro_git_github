@@ -42,7 +42,7 @@
 
 - 3 file states and parts of a git repo
   1. Files in the "modified" state are in the "working directory"
-  2. Files in the "staged" state are in the "Stagining area" (aka the "Index")
+  2. Files in the "staged" state are in the "Staging area" (aka the "Index")
   3. The snapshots of files in the "commmited" state are in the "Local repository"
 
 - 3-step basic workflow
@@ -63,7 +63,8 @@
 - Inspecting (useful commands that don't *do* anything)
   - Check the status of files in your repo with `git status`  
   - See what changed with `git diff`  
-  - See the history of your repo with `git log`  
+  - See the history of your repo with `git log`
+    - `git log --graph --all` is especially useful because it draws a graph of all the branches
 
 - Undoing things
   - Unmodify a file with `git restore <file>` or  `git checkout -- <file>`
@@ -95,6 +96,7 @@
 
 - Forking (GitHub)
   - If you want to collaborate on someone else's repository, make a "fork" of that repo onto your GitHub account, and then clone and work on your fork. A fork is like a copy. 
+  - Once you've made a fork on GitHub and cloned the fork to your machine, make sure you open a new branch to work on (i.e., you usually shouldn't work on the master/main in a collaborative project).
 
 - Pull requests (GitHub)
   - Once you've forked a remote repo, made changes, added and committed those changes, and pushed your changes to your fork on GitHub, then you can open a pull request to ask the maintainers of the original repo if they want to integrate your changes. 

@@ -7,7 +7,7 @@ Practice collaborating with a partner on git and github. This includes opening a
 As you go through these steps, add to your drawing the commands that move changes between different parts of the git project. 
 
 ## If you need a hint
-Look at [this version](HINTS__5_collaborate-with-a-partner.md) of this file to see which git command(s) to use for each step and which commands to put on your drawing.
+Look at [this version](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/HINTS__task-2_collaborate-with-a-partner.md) of this file to see which git command(s) to use for each step and which commands to put on your drawing.
 
 ## Steps
 1. Find a partner (the instructor will help with this)

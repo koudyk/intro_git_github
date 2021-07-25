@@ -13,7 +13,7 @@ For this class, you'll need
 ## Detailed instructions
 Here are the instructions for installing a Bash shell and Git, and for finding a text editor on [Windows](#-----windows), [Mac OS X](#-----mac-os-x), or [Linux](#-----linux). 
 
-<h1> <img src="https://diymediahome.org/wp-content/uploads/Windows_7_logo.png"
+<h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Unofficial_Windows_logo_variant_-_2002%E2%80%932012_%28Multicolored%29.svg/1200px-Unofficial_Windows_logo_variant_-_2002%E2%80%932012_%28Multicolored%29.svg.png"
   width="50"
   height="50"
   style="float:left;">

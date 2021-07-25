@@ -1,6 +1,6 @@
 # Create your own workflow chart
 
-In the next two activities, you'll practice tracking and shareing your work and collaborating on a project.
+In the next two activities, you'll practice tracking and sharing your work and collaborating on a project.
 During those activities, you'll create your own flow chart showing which git commands move changes between which parts of a git project.
 
 ## Goals

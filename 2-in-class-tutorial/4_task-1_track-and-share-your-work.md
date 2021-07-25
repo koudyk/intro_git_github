@@ -7,7 +7,9 @@ Create a local repository, link it to a remote repository on GitHub, and practic
 As you go through these steps, add to your drawing the commands that move changes between different parts of the git project.
 
 ## If you need a hint
-Look at [this version](HINTS__4_track-and-share-your-work.md) of this file to see which git command(s) to use for each step and which commands to put on your drawing.
+Look at [this version](https://github.com/koudyk/intro_git_github/blob/main/2-in-class-tutorial/HINTS__task-1_track-and-share-your-work.md
+) of this file to see which git command(s) to use for each step and which commands to put on your drawing.
+
 
 ## Steps
 1. Make a directory somewhere on your machine (make its name unique so there isn't another with the same name on GitHub
