@@ -1,6 +1,6 @@
 # Introduction to git and GitHub
 
-Hello! 👋 
+Hello! 👋 I'm Kendra Oudyk
 
 Git and GitHub are key tools for doing version control in both academia and industry. These tools can help researchers do more efficient, open, and reproducible work. In this material, we cover these topics:
 
